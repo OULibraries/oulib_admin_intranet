@@ -1,0 +1,10 @@
+base theme = seven 
+name = Intranet Admin Theme
+description = Admin theme for Intranet
+core = 7.x
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
