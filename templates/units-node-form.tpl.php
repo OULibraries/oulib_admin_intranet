@@ -20,7 +20,7 @@ communicate important information to the organization such as workflows, trainin
 <h3>Projects & Initiatives</h3>
 <div class="content-border">
 <p style="margin-bottom:-10px;">Tell the organization a little more about the important work you do. TIP: use the photo collection to search for images to pair with your text.</p>
-<?php print drupal_render($form['field_build_your_page']); ?>
+<?php print drupal_render($form['field_projects']); ?>
 </div>
 
 

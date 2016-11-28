@@ -14,7 +14,7 @@
   return array(
     'units_node_form' => array(
 	  'arguments' => array('form' => NULL),
-	  'template' => 'templates\units-node-form',
+	  'template' => 'templates/units-node-form',
       'render element' => 'form',
       
       ),
