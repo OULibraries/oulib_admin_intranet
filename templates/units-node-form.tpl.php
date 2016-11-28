@@ -6,6 +6,7 @@ communicate important information to the organization such as workflows, trainin
 
 <h3>General Information</h3>
 <div class="content-border">
+    <?php print drupal_render($form['title']); ?>
     <?php print drupal_render($form['field_unit_email']); ?> 
 	<?php print drupal_render($form['field_unit_phone']); ?> 
     <?php print drupal_render($form['field_image']); ?> 
