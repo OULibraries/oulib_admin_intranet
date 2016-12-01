@@ -5,7 +5,7 @@ communicate important information to the organization such as workflows, trainin
 </div>
 
 <h3>General Information</h3>
-<div class="content-border">
+<div class="content-border"> 
     <?php print drupal_render($form['title']); ?>
     <?php print drupal_render($form['field_unit_email']); ?> 
 	<?php print drupal_render($form['field_unit_phone']); ?> 
@@ -23,6 +23,8 @@ communicate important information to the organization such as workflows, trainin
 <p style="margin-bottom:-10px;">Tell the organization a little more about the important work you do. TIP: use the photo collection to search for images to pair with your text.</p>
 <?php print drupal_render($form['field_projects']); ?>
 </div>
+<?php print drupal_render_children($form);?>
+
 
 
 
