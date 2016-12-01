@@ -7,9 +7,9 @@ core = 7.x
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
-;stylesheets[all][] = css/style.css
+stylesheets[all][] = css/style.css
 stylesheets[screen][] = reset.css
-stylesheets[screen][] = style.css
+;stylesheets[screen][] = style.css
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Settings
