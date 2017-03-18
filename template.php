@@ -130,6 +130,12 @@ function oulib_admin_intranet_css_alter(&$css) {
       'render element' => 'form',
       
       ),
+    'user_profile_form' => array(
+      // Forms always take the form argument.
+      'arguments' => array('form' => NULL),
+      'render element' => 'form',
+      'template' => 'templates/user-profile-edit',
+    ),
 	  
   );
 }
