@@ -13,7 +13,7 @@ communicate important information to the organization such as workflows, trainin
 
 <h3>Contact Info</h3>
 <div class="content-border">
-	<?php print drupal_render($form['field_locations']); ?>
+	<?php print drupal_render($form['field_physical_locations']); ?>
 	<?php print drupal_render($form['field_unit_phone']); ?>
     <?php print drupal_render($form['field_unit_fax']); ?>
 	<?php print drupal_render($form['field_unit_email']); ?>	
